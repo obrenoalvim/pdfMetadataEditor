@@ -2,8 +2,6 @@
 
 A modern, client-side PDF metadata editor built with Next.js. Edit PDF metadata directly in your browser without uploading files to any server - 100% privacy-focused.
 
-![PDF Metadata Editor](https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200)
-
 ## Features
 
 - **100% Client-Side Processing** - All PDF operations happen in your browser. No uploads, no server processing.
