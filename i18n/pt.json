@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "Editor de Metadados PDF",
+    "subtitle": "Edite metadados de PDF diretamente no navegador - 100% local, sem uploads"
+  },
+  "header": {
+    "title": "Editor de Metadados PDF"
+  },
+  "dropzone": {
+    "title": "Carregar Arquivo PDF",
+    "description": "Arraste e solte um arquivo PDF aqui, ou clique para selecionar",
+    "fileSelected": "Arquivo carregado:",
+    "acceptedTypes": "Apenas arquivos PDF são aceitos"
+  },
+  "form": {
+    "title": "Campos de Metadados",
+    "fields": {
+      "title": "Título",
+      "author": "Autor",
+      "subject": "Assunto",
+      "keywords": "Palavras-chave",
+      "keywordsPlaceholder": "Separe palavras-chave com vírgulas",
+      "creator": "Criador",
+      "producer": "Produtor",
+      "creationDate": "Data de Criação",
+      "modDate": "Data de Modificação"
+    },
+    "buttons": {
+      "applyAndDownload": "Aplicar e Baixar",
+      "clear": "Limpar Todos os Campos"
+    }
+  },
+  "messages": {
+    "success": "Metadados do PDF atualizados com sucesso!",
+    "error": "Erro ao processar PDF",
+    "errorEncrypted": "Este PDF está criptografado ou protegido. Não é possível editar metadados.",
+    "errorReading": "Erro ao ler arquivo PDF. Certifique-se de que é um PDF válido.",
+    "errorWriting": "Erro ao gravar metadados no PDF.",
+    "noPdfLoaded": "Por favor, carregue um arquivo PDF primeiro"
+  }
+}

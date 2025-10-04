@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "PDF Metadata Editor",
+    "subtitle": "Edit PDF metadata directly in your browser - 100% client-side, no uploads"
+  },
+  "header": {
+    "title": "PDF Metadata Editor"
+  },
+  "dropzone": {
+    "title": "Upload PDF File",
+    "description": "Drag and drop a PDF file here, or click to select",
+    "fileSelected": "File loaded:",
+    "acceptedTypes": "Only PDF files are accepted"
+  },
+  "form": {
+    "title": "Metadata Fields",
+    "fields": {
+      "title": "Title",
+      "author": "Author",
+      "subject": "Subject",
+      "keywords": "Keywords",
+      "keywordsPlaceholder": "Separate keywords with commas",
+      "creator": "Creator",
+      "producer": "Producer",
+      "creationDate": "Creation Date",
+      "modDate": "Modification Date"
+    },
+    "buttons": {
+      "applyAndDownload": "Apply and Download",
+      "clear": "Clear All Fields"
+    }
+  },
+  "messages": {
+    "success": "PDF metadata updated successfully!",
+    "error": "Error processing PDF",
+    "errorEncrypted": "This PDF is encrypted or protected. Cannot edit metadata.",
+    "errorReading": "Error reading PDF file. Please ensure it's a valid PDF.",
+    "errorWriting": "Error writing metadata to PDF.",
+    "noPdfLoaded": "Please load a PDF file first"
+  }
+}
