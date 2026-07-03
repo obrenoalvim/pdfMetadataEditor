@@ -1,0 +1,36 @@
+# PDF Metadata Editor
+
+> A free, 100% client-side web tool for editing PDF metadata directly in the browser.
+
+## What it does
+
+PDF Metadata Editor lets you open a PDF and edit its metadata fields — title, author, subject, keywords, creator, producer, creation date, and modification date — then download the updated file. Nothing is uploaded to a server; all processing happens locally in the browser via `pdf-lib`.
+
+## Key features
+
+- **Full metadata support**: title, author, subject, keywords, creator, producer, creation/modification dates
+- **100% client-side**: no uploads, no server processing, no data collection, no analytics
+- **Drag & drop**: easy file upload
+- **Multilingual**: English and Portuguese (Brazil), with persistent language selection
+- **Dark theme**: modern, distraction-free UI
+
+## Use cases
+
+- Cleaning or correcting metadata on a PDF before sharing or publishing it
+- Adding proper title/author/keywords to improve a PDF's discoverability
+- Removing identifying creator/producer info before distributing a document
+- Batch-preparing document metadata for archival or compliance purposes
+
+## Limitations
+
+- Cannot edit metadata for password-protected or encrypted PDFs
+- One PDF processed at a time
+- Advanced XMP metadata is not currently supported
+
+## Technology
+
+Built with Next.js (App Router), TypeScript, Tailwind CSS, and `pdf-lib` for client-side PDF manipulation.
+
+## Links
+
+- Source: https://github.com/obrenoalvim/pdfMetadataEditor

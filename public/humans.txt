@@ -1,0 +1,14 @@
+/* TEAM */
+Developer: Breno Alvim
+Site: https://github.com/obrenoalvim
+GitHub: https://github.com/obrenoalvim/pdfMetadataEditor
+
+/* THANKS */
+pdf-lib: https://pdf-lib.js.org/
+shadcn/ui: https://ui.shadcn.com/
+Lucide icons: https://lucide.dev/
+
+/* SITE */
+Language: English, Portuguese (Brazil)
+Framework: Next.js
+Components: TypeScript, Tailwind CSS
