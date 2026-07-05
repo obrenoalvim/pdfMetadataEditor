@@ -56,7 +56,7 @@ export default function Home() {
     try {
       const updatedPdfBytes = await applyMetadata(pdfBuffer, metadata);
 
-      const blob = new Blob([updatedPdfBytes], { type: 'application/pdf' });
+      const blob = new Blob([updatedPdfBytes as BlobPart], { type: 'application/pdf' });
       const url = URL.createObjectURL(blob);
 
       const link = document.createElement('a');

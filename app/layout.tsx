@@ -6,7 +6,8 @@ import { Toaster } from '@/components/ui/sonner';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://pdf-metadata-editor-theta.vercel.app';
 
 const siteDescription =
   'Edit PDF metadata (title, author, subject, keywords, creator, dates) directly in your browser. ' +
