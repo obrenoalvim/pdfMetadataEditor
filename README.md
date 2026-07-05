@@ -1,6 +1,6 @@
 # PDF Metadata Editor
 
-[![CI](https://github.com/obrenoalvim/pdfMetadataEditor/actions/workflows/ci.yml/badge.svg)](https://github.com/obrenoalvim/pdfMetadataEditor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/obrenoalvim/pdf-metadata-editor/actions/workflows/ci.yml/badge.svg)](https://github.com/obrenoalvim/pdf-metadata-editor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A modern, client-side PDF metadata editor built with Next.js. Edit PDF metadata directly in your browser without uploading files to any server - 100% privacy-focused.
 

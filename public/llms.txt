@@ -33,4 +33,4 @@ Built with Next.js (App Router), TypeScript, Tailwind CSS, and `pdf-lib` for cli
 
 ## Links
 
-- Source: https://github.com/obrenoalvim/pdfMetadataEditor
+- Source: https://github.com/obrenoalvim/pdf-metadata-editor
