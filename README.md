@@ -1,3 +1,5 @@
+English | [Português](README.pt.md)
+
 # PDF Metadata Editor
 
 [![CI](https://github.com/obrenoalvim/pdf-metadata-editor/actions/workflows/ci.yml/badge.svg)](https://github.com/obrenoalvim/pdf-metadata-editor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -35,7 +37,7 @@ A modern, client-side PDF metadata editor built with Next.js. Edit PDF metadata 
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/obrenoalvim/pdf-metadata-editor.git
 cd pdf-metadata-editor
 ```
 
