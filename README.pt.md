@@ -18,7 +18,7 @@ Um editor de metadados de PDF moderno e 100% client-side, construído com Next.j
 
 ## Tecnologias
 
-- **Next.js 13.5** — framework React com App Router
+- **Next.js 15** — framework React com App Router
 - **TypeScript** — desenvolvimento com tipagem
 - **pdf-lib** — manipulação de PDF no client-side
 - **Tailwind CSS** — framework CSS utility-first

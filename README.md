@@ -18,7 +18,7 @@ A modern, client-side PDF metadata editor built with Next.js. Edit PDF metadata 
 
 ## Technology Stack
 
-- **Next.js 13.5** - React framework with App Router
+- **Next.js 15** - React framework with App Router
 - **TypeScript** - Type-safe development
 - **pdf-lib** - Client-side PDF manipulation
 - **Tailwind CSS** - Utility-first CSS framework

@@ -5,8 +5,8 @@ Contributions are welcome! Here's how to get started.
 ## Setup
 
 ```bash
-git clone https://github.com/brenoalvim/pdfMetadataEditor.git
-cd pdfMetadataEditor
+git clone https://github.com/obrenoalvim/pdf-metadata-editor.git
+cd pdf-metadata-editor
 npm install
 npm run dev
 ```

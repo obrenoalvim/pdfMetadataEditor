@@ -2,6 +2,7 @@
 
 import { useCallback, useState } from 'react';
 import { Upload, FileCheck } from 'lucide-react';
+import { toast } from 'sonner';
 import { useI18n } from '@/lib/i18n-context';
 import { Card } from '@/components/ui/card';
 
@@ -44,10 +45,12 @@ export function Dropzone({ onFileSelect, fileName }: DropzoneProps) {
         const file = files[0];
         if (file.type === 'application/pdf') {
           onFileSelect(file);
+        } else {
+          toast.error(t.messages.errorReading);
         }
       }
     },
-    [onFileSelect]
+    [onFileSelect, t]
   );
 
   const handleFileInput = useCallback(
@@ -57,10 +60,12 @@ export function Dropzone({ onFileSelect, fileName }: DropzoneProps) {
         const file = files[0];
         if (file.type === 'application/pdf') {
           onFileSelect(file);
+        } else {
+          toast.error(t.messages.errorReading);
         }
       }
     },
-    [onFileSelect]
+    [onFileSelect, t]
   );
 
   return (
